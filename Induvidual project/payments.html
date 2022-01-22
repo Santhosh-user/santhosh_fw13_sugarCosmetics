@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Induvidual project/home.css">
+    <title>Payments</title>
+</head>
+
+<style>
+    /* homepage css starts */
+    
+
+*{
+    font-family: 'Dongle', sans-serif;
+    background-color: #F5F5F5;
+}
+.search-block{
+    display: flex;
+    background-color: #eeeeee;
+    height: 80px;
+    margin: 0px;
+}
+
+.search-block-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}   
+
+.search-bar {
+    display: flex;
+    padding-left: 50px;
+}
+
+#search-place {
+    padding-left: 30px;
+}
+
+.logo{
+    padding-left: 30px;
+}
+
+#search-place {
+    width: 500px;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-style: none;
+    font-size: 20px;
+    background-color: white;
+
+    
+}
+
+#search-btn {
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 120px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+}
+.account {
+    display: flex;
+    width: 110px ;
+    padding-left: 100px;
+}
+
+.account i{
+    padding-top: 25px;
+    width: 100px ;
+    
+}
+
+.account p {
+    padding-left: 10px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.three-icons {
+    display: flex;
+    padding-left: 100px;
+}
+
+.three-icons i {
+    color: #495057;
+    padding-left: 15px;
+}
+
+.discount-box {
+    padding-left: 15px;
+    width: 17px;
+    height: 17px;
+}
+.discount-box img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.menubar-container {
+    width: 80%;
+    height: 50px;
+    
+}
+
+.menubar-container .menu-list {
+    
+    list-style: none;
+    display: flex;
+   
+}
+
+.menu-list li {
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+
+#Slider{
+    display: flex;
+    overflow-x: scroll;
+    gap: 15px;
+    /* padding-left: 70px;
+    padding-right: 70px; */
+    scroll-behavior: smooth;
+    width: 100%;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+#Slider::-webkit-scrollbar{
+    display: none;
+}
+
+#SliderA {
+    width: 100%;
+    height: 100%;
+}
+
+.full-width-sliders {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+
+.full-width-slider{
+    display: flex;
+    height: 100%;
+}
+
+.full-width-sliders .full-width-slider img {
+    width: 100%;
+}
+
+#i2{
+    left: 0;
+    margin: 120px 0 0 20px;
+    font-size: 20px;
+    position: absolute;
+    background-color: none;
+    z-index: 10;
+}
+
+#i1{
+    right: 0;
+    margin: 120px 20px 0 20px;
+    font-size: 20px;
+    position: absolute;
+    background-color: none;
+    z-index: 10;
+}
+
+.heading {
+    font-size: 60px;
+    text-align: center;
+}
+
+.heading1 {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 40px;
+}
+.four-boxes {
+    display: flex;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 0px;
+    padding-left: 100px;
+}
+
+.four-boxes .box1 {
+    width: 200px;
+    height: 400px;
+    margin-left: 100px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.four-boxes .box1 img{
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.four-boxes .box1 p {
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.four-boxes .box1 button {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    
+}
+
+.three-posters {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.three-posters .poster1 img{
+    padding-right: 40px;
+    width: 375px;
+}
+
+.full-width-poster {
+    width: 1200;
+}
+
+.full-width-poster img {
+    width: 100%;
+}
+
+#pop-background {
+    width: 100%;
+    float: right;
+    height: 100%;
+    background-color: rgba(207, 200, 200, 0.4);;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    display: none;
+    z-index: 20px;
+}
+
+#pop-up {
+    width: 700px;
+    height: 400px;
+    /* background-color: rgb(235, 235, 235); */
+    opacity: 1;
+    border-radius: 6px;
+ 
+}
+
+.white-box .above-line .above-line-h {
+    font-size: 40px;
+   margin-bottom: 0px;
+    padding-left: 0px;
+    /* background-color: rgb(235, 235, 235); */
+}
+
+.white-box .above-line .above-line-c {
+    font-size: 30px;
+     margin-bottom: 0px;
+    padding-left: 0px;
+    /* background-color: rgb(235, 235, 235); */
+}
+
+.white-box .above-line {
+    padding-left: 60px;
+}
+
+.white-box .above-line input {
+    height: 30px;
+    width: 250px;
+    font-size: 30px;
+    
+    
+}
+
+.white-box .above-line button{
+    height: 37px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.white-box .below-line {
+    padding-left: 60px;
+}
+
+.white-box .below-line .below-line-c {
+    font-size: 30px;
+     margin-bottom: 0px;
+    padding-left: 0px;
+    /* background-color: rgb(235, 235, 235); */
+}
+
+.white-box .below-line input {
+    height: 30px;
+    width: 250px;
+    font-size: 30px;
+}
+
+
+
+.white-box .below-line button{
+    height: 37px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+#pop-background2 {
+    width: 100%;
+    float: right;
+    height: 100%;
+    background-color: rgba(207, 200, 200, 0.4);;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    display: none;
+    z-index: 20px;
+}
+
+#pop-up2 {
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    opacity: 1;
+    border-radius: 6px;
+    text-align: center;
+ 
+}
+
+#sign-c {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.footer{
+    background-color: black;
+    margin-top: 30px;
+}
+.footer .footer-logo {
+    display: flex;
+    background-color: black;
+    height: 120px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer .footer-logo img {
+    background-color: black;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer .social-icons  {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding-left: 42%;
+}
+
+.footer .social-icons  img{
+    background-color: black;
+    color: white;
+    height: 20px;
+   padding-right: 35px;
+    display: flex;
+}
+
+.footer .information {
+    background-color: black;
+    padding-left: 60px;
+}
+
+.footer .information .info-heading p {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.footer .information .info-content {
+    background-color: black;
+    display: flex;
+}
+
+.footer .information .info-content p {
+    background-color: black;
+    color: grey;
+    font-size: 25px;
+    padding-right: 100px;
+    margin: 0px;
+}
+
+.footer .get-in-touch .info-heading {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding-left: 60px;
+}
+
+.footer .get-in-touch .info-heading .g1 {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.footer .get-in-touch .info-heading .g1-h {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.footer .get-in-touch .info-heading .g1-h p {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.footer .get-in-touch .info-heading .g1-c p {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.footer .get-in-touch .info-heading .g1-c p {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.footer .get-content {
+    padding-left: 60px;
+}
+
+.footer .get-in-touch .get-content {
+    display: flex;
+    background-color: black;
+    color: white;
+    
+}
+
+.footer .get-in-touch .get-content .g1 {
+    padding-right: 70px;
+    background-color: black;
+    color: white;
+   
+}
+
+.footer .get-in-touch .get-content .g1 .g1-h {
+    padding-right: 100px;
+    font-size: 28px;
+    font-weight: 500;
+    background-color: black;
+    color: white; 
+   
+}
+
+.footer .get-in-touch .get-content .g1 .g1-h p {
+    background-color: black;
+    color: white; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.footer .get-in-touch .get-content .g1 .g1-c {
+    padding-right: 50px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+}
+
+.footer .get-in-touch .get-content .g1 .g1-c p {
+    background-color: black;
+    color: grey;
+    margin-top: 0px;
+    
+}
+
+/* homepage css ends */
+
+
+/* cart css starts */
+#cart-container {
+    width: 95%;
+    border: 1px solid black;
+    height: 500px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-side {
+    width: 50%;
+    
+}
+
+
+.order-total-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-total-block .order {
+    display: flex;
+    padding-left: 20px;
+}
+
+.order-total-block .order i  {
+    padding-top: 20px;
+}
+
+.order-total-block .order p {
+    padding-left: 10px;
+    font-size: 27px;
+    margin: 0px;
+    padding-top: 10px;
+    
+}
+
+.order-total-block #total p {
+    font-size: 27px;
+    margin: 0px;
+    padding-top: 10px;
+    text-decoration: underline;
+    padding-right: 20px;
+}
+
+
+
+
+.right-side {
+    width: 50%;
+    border: 1px solid black;
+}
+
+
+
+
+#added-products {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+#added-products p{
+    font-size: 22px;
+    
+} 
+
+
+#added-products-left {
+    display: flex;
+    padding-left: 20px;
+}
+
+ #img2 {
+    display: flex;
+    width: 100px;
+    height: 150px;
+    margin: 0px;
+}
+
+#added-products #added-products-right {
+    display: flex;
+}   
+
+
+#added-products #added-products-right #minus-plus {
+    display: flex;
+}
+
+#added-products #added-products-right #minus-plus i {
+    padding-top: 30px;
+   font-size: 15px;
+}
+
+#added-products #added-products-right #minus-plus {
+    padding-right: 50px;
+}
+
+#added-products #added-products-right #minus-plus .fa-minus-circle {
+    padding-right: 10px;
+}
+
+#added-products #added-products-right #minus-plus #increment {
+    padding-right: 10px;
+}
+
+#added-products #added-products-right #minus-plus .fa-trash {
+    padding-right: 50px;
+}
+
+#multiply-numbers #multiply {
+    padding-right: 20px;
+}
+
+.offers-block  {
+    display: flex;
+    padding-left: 20px;
+}
+
+.offers-block i{
+    padding-top: 20px;
+}
+
+.offers-block p {
+    padding-left: 10px;
+    font-size: 30px;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+
+
+.promo-code {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.promo-code i {
+    padding-top: 5px;
+}
+
+.promo-code p {
+    font-size: 20px;
+    padding-right: 15px;
+    margin: 0px;
+    padding-left: 10px;
+}
+
+.promo-code .promo {
+    height: 25px;
+    width: 150px;
+    font-size: 20px;
+}
+
+.price-heading {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.price-heading i {
+    padding-top: 5px;
+}
+.price-heading p {
+    padding-left: 10px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.price-content {
+    display: flex;
+}
+
+.price-content .line1 {
+    display: flex;
+    padding-top: 20px;
+    
+    
+}
+
+.price-content .line1-left {
+    display: flex;
+}
+
+.price-content .line1-left i {
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+
+.price-content .line1-left p {
+    margin: 0px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.price-content .line1-right {
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.buttons {
+    display: flex;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.buttons .continue-shopping {
+    width: 30%;
+    font-size: 20px;
+}
+
+.buttons .delivery-information {
+    width: 70%;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+/* cart css ends */
+
+
+</style>
+
+<body>
+    <!-- Homepage header html starts -->
+    <div class="search-block">
+        <div class="search-block-container">
+            <div class="logo">
+                <img src="https://in.sugarcosmetics.com/desc-images/SUGARLogo1.png" alt="">
+            </div>
+            
+            <div class="search-bar">
+
+                <input type="text" placeholder="Try Liquid Lipstick" id="search-place">
+
+                <button id="search-btn">Search</button>
+            </div>
+
+            <div class="account">
+                <i class="fas fa-user"></i>
+                <p id="t-btn">Login/Register</p>
+            </div>
+
+            <div class="three-icons">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-shopping-bag"></i>
+                <div class="discount-box"><img src="https://in.sugarcosmetics.com/desc-images/discountIcon.svg" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menubar">
+        <div class="menubar-container">
+            <ul class="menu-list">
+                <li>MAKEUP</li>
+                <li>BRUSHES</li>
+                <li>SKINCARE</li>
+                <li>TRENDING</li>
+                <li>BLOG</li>
+                <li>OFFERS</li>
+            </ul>
+        </div>
+    </div>
+     <!-- Homepage header html ends -->
+
+
+
+    <div id="cart-container">
+        <div class="left-side">
+            <div class="order-total-block">
+                <div class="order">
+                    <i class="fas fa-shopping-cart"></i>
+                    <p class="order-text">Order Summary</p>
+                </div>
+
+                <div id="total">
+                    <p>Cart Total : Rs. 297.00</p>
+                </div>
+            </div>
+
+            <div id="d-products">
+                <!-- <div id="added-products">
+                    <div id="added-products-left">
+                        
+                            <img id="img2" src="https://cdn.shopify.c/s/files/1/0906/2558/products/sugar-cosmetics-cheat-sheet-anti-aging-mask-12775753744467.jpg?v=1619113715" alt="">
+                        
+    
+                        <p>Stroke Of Genius Heavy-Duty Kohl</p>
+                    </div>
+    
+                    <div id="added-products-right">
+                        <div id="minus-plus">
+                            <i class="fas fa-trash"></i>
+                            <i class="fas fa-minus-circle"></i>
+                            <p id="increment">1</p>
+                            <i class="fas fa-plus-circle"></i>
+                        </div>
+                    
+    
+                        <div id="multiply-numbers">
+                            <p id="multiply">1 x 99.00 = 99</p>
+                        </div>
+                    </div>
+
+                </div> -->
+            </div>
+
+        </div>
+
+        <div class="right-side">
+           <div class="payment">
+               Payment Method
+           </div>
+           <div class="list-p">
+               <div class="p1">
+                   <p>Instant Pay using UPIs</p>
+               </div>
+               <div class="p1">
+                    <p>Mobile Wallets</p>
+               </div>
+               <div class="p1">
+                     <p>Credit/DebitCards</p>
+                </div>
+                <div class="p1">
+                    <p>Net Banking</p>
+               </div>
+               <div class="class">
+                   <p>Cash on Delivery</p>
+               </div>
+           </div>
+            
+            <div class="buttons">
+                <button id="delivery-info">Offers and Pricing</button>
+                <button id="proceed-payment">
+                Proceed to Payment(Rs.297)
+                </button>
+            </div>
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+     <!-- Homepage footer html starts -->
+
+     <div class="footer">
+        <div class="footer-logo">
+            <img src="https://in.sugarcosmetics.com/Footer_sugar_icon.png" alt="">
+        </div>
+        <div class="social-icons">
+            <img src="https://in.sugarcosmetics.com/desc-images/facebook.svg" alt="">
+            <img src="https://in.sugarcosmetics.com/desc-images/Instagram.svg" alt="">
+            <img src="https://in.sugarcosmetics.com/desc-images/Pinterest.svg" alt="">
+            <img src="https://in.sugarcosmetics.com/desc-images/Tumblr.svg" alt="">
+            <img src="https://in.sugarcosmetics.com/desc-images/Youtube.svg" alt="">
+        </div>
+        <div class="footer-left"></div>
+        <div class="footer-right"></div>
+
+        <div class="information">
+            <div class="info-heading">
+                <p>INFORMATION</p>
+            </div>
+            <div class="info-content">
+                <p>Contact Us</p>
+                <p>Terms & Conditions</p>
+                <p>Returns</p>
+                <p>FAQs</p>
+                <p>About Us</p>
+            </div>
+        </div>
+        <div class="get-in-touch">
+            <div class="info-heading">
+                <div class="g1">
+                    <div class="g1-h">
+                        <p>GET IN TOUCH</p>
+                    </div>
+                </div> 
+            </div>     
+
+            <div class="get-content">
+                <div class="g1">
+                    <div class="g1-h">
+                        <p>Call us at</p>
+                    </div>
+
+                    <div class="g1-c">
+                        <p>022-2847-5555</p>
+                    </div>
+                </div>
+                
+
+                <div class="g1">
+                    <div class="g1-h">
+                        <p>Support</p>
+                    </div>
+                    
+                    <div class="g1-c">
+                        <p>hello@sugarcosmetics.com</p>
+                    </div>
+                </div>
+
+                 <div class="g1">
+                    <div class="g1-h">
+                        <p>Careers</p>
+                    </div>
+                    
+                    <div class="g1-c">
+                        <p>careers@sugarcosmetics.com</p>
+                    </div>
+                </div>
+
+                <div class="g1">
+                    <div class="g1-h">
+                        <p>PR & Media</p>
+                    </div>
+                    
+                    <div class="g1-c">
+                        <p>pr@sugarcosmetics.com</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+</body>
+</html>
+
+<script>
+     // cart script starts
+     var cartItems = JSON.parse(localStorage.getItem("cartItems")) 
+    console.log(cartItems)
+
+    displayItem(cartItems);
+
+
+    function displayItem(product) {
+        product.forEach(function(item){
+            
+
+            var name2 = document.createElement("p")
+
+            name2.setAttribute("id","product-name2")
+
+            name2.textContent = item.name
+
+            var img2 = document.createElement("img")
+
+            img2.setAttribute("id", "img2")
+
+            img2.src = item.img
+
+            var added_products_left = document.createElement("div")
+
+            added_products_left.setAttribute("id", "added-products-left")
+
+            added_products_left.append(img2,name2)
+
+            var added_products = document.createElement("added-products")
+
+            added_products.setAttribute("id", "added-products")
+
+            DisProd = document.getElementById("d-products")
+
+            
+
+
+            var added_products_right = document.createElement("div")
+
+            added_products_right.setAttribute("id", "added-products-right")
+
+            added_products_right.innerHTML = `<div id="minus-plus">
+                            <i class="fas fa-trash"></i>
+                            <i class="fas fa-minus-circle"></i>
+                            <p id="increment">1</p>
+                            <i class="fas fa-plus-circle"></i>
+                        </div>
+                    
+    
+                        <div id="multiply-numbers">
+                            <p id="multiply">1 x 99.00 = 99</p>
+                        </div>`
+
+
+        added_products.append(added_products_left, added_products_right)
+            DisProd.append(added_products)
+        })
+    }
+    //cart script ends
+</script>
