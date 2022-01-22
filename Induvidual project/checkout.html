@@ -921,7 +921,7 @@
             
             <div class="buttons">
                 <button id="offers-pricing">Offers and Pricing</button>
-                <button id="proceed-payment">
+                <button onclick="iru()" id="proceed-payment">
                 Proceed to Payment(Rs.297)
                 </button>
             </div>
@@ -1088,6 +1088,11 @@
         added_products.append(added_products_left, added_products_right)
             DisProd.append(added_products)
         })
+    }
+
+
+    function iru() {
+        alert("Order Sucessfully Placed")
     }
     //cart script ends
 </script>

@@ -4,6 +4,10 @@
     font-family: 'Dongle', sans-serif;
     background-color: #F5F5F5;
 }
+
+#close-btn  {
+    padding-left: 200px;
+}
 .search-block{
     display: flex;
     background-color: #eeeeee;
