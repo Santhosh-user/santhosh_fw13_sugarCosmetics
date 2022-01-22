@@ -23,14 +23,14 @@ t_btn.addEventListener("click", function(event){
     
 })
 
-var close_btn = document.getElementById("close-btn") 
+// var close_btn = document.getElementById("close-btn") 
 
-close_btn.addEventListener("click", function(event){
-    event.preventDefault()
+// close_btn.addEventListener("click", function(event){
+//     event.preventDefault()
 
-    pop_background.style.display = "none";
+//     pop_background.style.display = "none";
 
-})
+// })
 
 // var sign_in = document.getElementById("sign-in")
 
@@ -51,6 +51,7 @@ var req_otp = document.getElementById("req-otp")
 req_otp.addEventListener("click", function(event){
     event.preventDefault()
     alert("OTP sent")
+    console.log(1)
 })
 
 var verify_otp = document.getElementById("verify-otp")

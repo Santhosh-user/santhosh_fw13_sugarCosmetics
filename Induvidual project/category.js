@@ -16,7 +16,7 @@ var products = [
     }, {
       name: "Charcoal Patrol Face Mask",
     img:
-      "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-charcoal-patrol-face-mask-12775752564819.jpg?v=1619113688",
+      "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-charcoal-patrol-bubble-mask-12775750500435.jpg?v=1619113672",
     price: "Rs.99.00"
     ,
   }, {
